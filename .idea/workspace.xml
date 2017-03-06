@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4c414e-39e4-44e5-aec2-5ac47ba3d57e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$1.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$2.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$3.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$13.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$14.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$15.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$16.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$17.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$18.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$19.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$20.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$21.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$22.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$23.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$24.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$24.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$25.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$25.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$26.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$26.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$27.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$27.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$28.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$28.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$29.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$29.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$30.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$30.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$31.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$31.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$32.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$32.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$33.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$33.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$34.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$34.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$8.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java" afterPath="$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java" afterPath="$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,9 +31,11 @@
       <file leaf-file-name="UnitTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="298">
+              <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +43,8 @@
       <file leaf-file-name="ItalianRule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="156" column="28" lean-forward="true" selection-start-line="156" selection-start-column="28" selection-end-line="156" selection-end-column="28" />
+            <state relative-caret-position="463">
+              <caret line="108" column="96" lean-forward="false" selection-start-line="108" selection-start-column="96" selection-end-line="108" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -81,8 +53,8 @@
       <file leaf-file-name="ItalianSpeller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianSpeller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="265">
+              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -103,8 +75,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/speller/ItalianSpeller.java" />
         <option value="$PROJECT_DIR$/src/net/owpla/speller/ItalianSpeller.java" />
-        <option value="$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java" />
         <option value="$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java" />
+        <option value="$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java" />
       </list>
     </option>
   </component>
@@ -424,6 +396,12 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 14h 41m 02s.xml">
+      <configuration name="UnitTest.testWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 16h 03m 36s.xml">
+      <configuration name="UnitTest.testWord" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="UnitTest_testWord - 2017.03.06 at 18h 59m 49s.xml">
       <configuration name="UnitTest.testWord" configurationId="JUnit" />
     </history-entry>
@@ -454,12 +432,6 @@
     <history-entry file="UnitTest_testWord - 2017.03.06 at 19h 07m 10s.xml">
       <configuration name="UnitTest.testWord" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTest_testWord - 2017.03.06 at 14h 41m 02s.xml">
-      <configuration name="UnitTest.testWord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTest_testWord - 2017.03.06 at 16h 03m 36s.xml">
-      <configuration name="UnitTest.testWord" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -468,13 +440,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -504,14 +476,14 @@
         <line-breakpoint enabled="true" type="java-line">
           <condition expression="c.equals(&quot;s&quot;) &amp;&amp; d.equals(&quot;chiavo&quot;)" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java</url>
-          <line>211</line>
+          <line>217</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <condition expression="c.equals(&quot;s&quot;) &amp;&amp; d.equals(&quot;chiavo&quot;)" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java</url>
-          <line>143</line>
+          <line>149</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -537,7 +509,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
           <caret line="72" column="95" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="72" selection-end-column="95" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -551,25 +525,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianSpeller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/Speller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="2363">
+          <caret line="144" column="28" lean-forward="false" selection-start-line="144" selection-start-column="28" selection-end-line="144" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianSpeller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/util/function/BiPredicate.java" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianSpeller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/Speller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="156" column="28" lean-forward="true" selection-start-line="156" selection-start-column="28" selection-end-line="156" selection-end-column="28" />
+        <state relative-caret-position="-964">
+          <caret line="105" column="80" lean-forward="false" selection-start-line="105" selection-start-column="80" selection-end-line="105" selection-end-column="80" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="168" column="70" lean-forward="false" selection-start-line="168" selection-start-column="70" selection-end-line="168" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/Speller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="72" column="95" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="72" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianSpeller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="108" column="96" lean-forward="false" selection-start-line="108" selection-start-column="96" selection-end-line="108" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

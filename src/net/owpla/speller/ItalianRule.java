@@ -100,9 +100,6 @@ class ItalianRule {
             if (d.length() > 2) {
                 triphthong += d.substring(0, 2);
             }
-<<<<<<< HEAD
-            if (d.length() > 1  && isVowel().test(endOfC) && isConsonant().test(startOfD)
-=======
 
             String D = d.length() > 1 ? d.substring(0, 2) : "";
             String E = d.length() > 2 ? d.substring(0, 3) : "";
@@ -110,7 +107,6 @@ class ItalianRule {
             if (isVowel().test(endOfC) && (isDiacritic().test(D) || isDiacritic().test(E))) {
                 return true;
             } else if (d.length() > 1  && isVowel().test(endOfC) && isConsonant().test(startOfD)
->>>>>>> developEdo
                     && isComplexConsonant().negate().test(startOfD, d.charAt(1))) {
                 return true;
             } else if (isVowel().test(endOfC) && startOfD == 's' && d.length() > 1 && d.charAt(1) != 's') {
