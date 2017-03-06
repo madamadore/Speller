@@ -46,16 +46,16 @@ public class UnitTest {
         assertEquals(syllables, new ArrayList<String>(){{ this.add("stoi"); this.add("co"); }});
 
         syllables = (ArrayList<String>) is.apply("ghetto");
+        assertEquals(new ArrayList<String>(){{ this.add("ghet"); this.add("to"); }}, syllables);
         assertEquals("ghetto", 2, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("ghet"); this.add("to"); }});
 
-        syllables = (ArrayList<String>) is.apply("mia");
-        assertEquals("mia", 2, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("mi"); this.add("a"); }});
+        syllables = (ArrayList<String>) is.apply("nessun'amica");
+        assertEquals(new ArrayList<String>(){{ this.add("nes"); this.add("su"); this.add("n'a"); this.add("mi"); this.add("ca"); }}, syllables);
+        assertEquals("nessun'amica", 5, syllables.size());
 
-        syllables = (ArrayList<String>) is.apply("leone");
-        assertEquals("leone", 3, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("le"); this.add("o"); this.add("ne"); }});
+        syllables = (ArrayList<String>) is.apply("sull'albero");
+        assertEquals("sull'albero", 4, syllables.size());
+        assertEquals(syllables, new ArrayList<String>(){{ this.add("sul"); this.add("l'al"); this.add("be"); this.add("ro"); }});
 
         syllables = (ArrayList<String>) is.apply("pianura");
         assertEquals("pianura", 3, syllables.size());
@@ -65,6 +65,10 @@ public class UnitTest {
         assertEquals("aiuola", 3, syllables.size());
         assertEquals(syllables, new ArrayList<String>(){{ this.add("a"); this.add("iuo"); this.add("la"); }});
 
+        syllables = (ArrayList<String>) is.apply("leone");
+        assertEquals("leone", 3, syllables.size());
+        assertEquals(new ArrayList<String>(){{ this.add("le"); this.add("o"); this.add("ne"); }}, syllables);
+
         syllables = (ArrayList<String>) is.apply("dito");
         assertEquals("dito", 2, syllables.size());
         assertEquals(syllables, new ArrayList<String>(){{ this.add("di"); this.add("to"); }});
@@ -72,14 +76,6 @@ public class UnitTest {
         syllables = (ArrayList<String>) is.apply("texano");
         assertEquals("texano", 3, syllables.size());
         assertEquals(syllables, new ArrayList<String>(){{ this.add("te"); this.add("xa"); this.add("no"); }});
-
-        syllables = (ArrayList<String>) is.apply("nessun'amica");
-        assertEquals("nessun'amica", 5, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("nes"); this.add("su"); this.add("n'a"); this.add("mi"); this.add("ca"); }});
-
-        syllables = (ArrayList<String>) is.apply("sull'albero");
-        assertEquals("sull'albero", 4, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("sul"); this.add("l'al"); this.add("be"); this.add("ro"); }});
 
         syllables = (ArrayList<String>) is.apply("chiaro");
         assertEquals("chiaro", 2, syllables.size());
@@ -90,8 +86,8 @@ public class UnitTest {
         assertEquals(syllables, new ArrayList<String>(){{ this.add("lu"); this.add("glio"); }});
 
         syllables = (ArrayList<String>) is.apply("schiavo");
+        assertEquals(new ArrayList<String>(){{ this.add("schia"); this.add("vo"); }}, syllables);
         assertEquals("schiavo", 2, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("schia"); this.add("vo"); }});
 
         syllables = (ArrayList<String>) is.apply("bruma");
         assertEquals("bruma", 2, syllables.size());
@@ -101,10 +97,6 @@ public class UnitTest {
         assertEquals("cloro", 2, syllables.size());
         assertEquals(syllables, new ArrayList<String>(){{ this.add("clo"); this.add("ro"); }});
 
-        syllables = (ArrayList<String>) is.apply("prugna");
-        assertEquals("prugna", 2, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("pru"); this.add("gna"); }});
-
         syllables = (ArrayList<String>) is.apply("storico");
         assertEquals("storico", 3, syllables.size());
         assertEquals(syllables, new ArrayList<String>(){{ this.add("sto"); this.add("ri"); this.add("co"); }});
@@ -112,10 +104,6 @@ public class UnitTest {
         syllables = (ArrayList<String>) is.apply("strada");
         assertEquals("strada", 2, syllables.size());
         assertEquals(syllables, new ArrayList<String>(){{ this.add("stra"); this.add("da"); }});
-
-        syllables = (ArrayList<String>) is.apply("mostruoso");
-        assertEquals("mostruoso", 3, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("mo"); this.add("struo"); this.add("so"); }});
 
         syllables = (ArrayList<String>) is.apply("collo");
         assertEquals("collo", 2, syllables.size());
@@ -145,20 +133,41 @@ public class UnitTest {
         assertEquals("sorpresa", 3, syllables.size());
         assertEquals(syllables, new ArrayList<String>(){{ this.add("sor"); this.add("pre"); this.add("sa"); }});
 
-        syllables = (ArrayList<String>) is.apply("oltranzista");
-        assertEquals("oltranzista", 4, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("ol"); this.add("tran"); this.add("zi"); this.add("sta"); }});
-
         syllables = (ArrayList<String>) is.apply("soppressata");
         assertEquals("soppressata", 4, syllables.size());
         assertEquals(syllables, new ArrayList<String>(){{ this.add("sop"); this.add("pres"); this.add("sa"); this.add("ta"); }});
+
+        syllables = (ArrayList<String>) is.apply("tungsteno");
+        assertEquals(new ArrayList<String>(){{ this.add("tung"); this.add("ste"); this.add("no"); }}, syllables);
+        assertEquals("tungsteno", 3, syllables.size());
 
         syllables = (ArrayList<String>) is.apply("feldspato");
         assertEquals("feldspato", 3, syllables.size());
         assertEquals(syllables, new ArrayList<String>(){{ this.add("feld"); this.add("spa"); this.add("to"); }});
 
-        syllables = (ArrayList<String>) is.apply("tungsteno");
-        assertEquals("tungsteno", 3, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("tung"); this.add("ste"); this.add("no"); }});
+        syllables = (ArrayList<String>) is.apply("prugna");
+        assertEquals(new ArrayList<String>(){{ this.add("pru"); this.add("gna"); }}, syllables);
+        assertEquals("prugna", 2, syllables.size());
+
+        syllables = (ArrayList<String>) is.apply("pugnare");
+        assertEquals(new ArrayList<String>(){{ this.add("pu"); this.add("gna"); this.add("re"); }}, syllables);
+        assertEquals("pugnare", 3, syllables.size());
+
+        syllables = (ArrayList<String>) is.apply("mostruoso");
+        assertEquals(new ArrayList<String>(){{ this.add("mo"); this.add("struo"); this.add("so"); }}, syllables);
+        assertEquals("mostruoso", 3, syllables.size());
+
+        syllables = (ArrayList<String>) is.apply("oltranzista");
+        assertEquals("oltranzista", 4, syllables.size());
+        assertEquals(syllables, new ArrayList<String>(){{ this.add("ol"); this.add("tran"); this.add("zi"); this.add("sta"); }});
+
+        syllables = (ArrayList<String>) is.apply("astio");
+        assertEquals("astio", 2, syllables.size());
+        assertEquals(new ArrayList<String>(){{ this.add("a"); this.add("stio"); }}, syllables);
+
+        syllables = (ArrayList<String>) is.apply("mia");
+        assertEquals("mia", 2, syllables.size());
+        assertEquals(new ArrayList<String>(){{ this.add("mi"); this.add("a"); }}, syllables);
+
     }
 }

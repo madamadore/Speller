@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c4c414e-39e4-44e5-aec2-5ac47ba3d57e" name="Default" comment="" />
+    <list default="true" id="6c4c414e-39e4-44e5-aec2-5ac47ba3d57e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$1.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$2.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$3.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/ItalianRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$13.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$14.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$15.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$16.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$17.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$18.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$19.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$20.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$21.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$22.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$23.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$24.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$25.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$25.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$26.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$26.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$27.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$27.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$28.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$28.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$29.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$29.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$30.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$30.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$31.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$31.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$32.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$32.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$33.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$33.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$34.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$34.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$8.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest.class" afterPath="$PROJECT_DIR$/out/production/Speller/net/owpla/speller/test/UnitTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java" afterPath="$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java" afterPath="$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +47,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Speller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/Speller.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -26,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnitTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UnitTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -36,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItalianRule.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItalianRule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="249">
@@ -57,6 +89,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -93,9 +128,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -389,16 +424,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnitTest_testWord - 2017.03.06 at 12h 37m 23s.xml">
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 18h 59m 49s.xml">
       <configuration name="UnitTest.testWord" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTest_testWord - 2017.03.06 at 12h 39m 00s.xml">
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 19h 00m 24s.xml">
       <configuration name="UnitTest.testWord" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTest_testWord - 2017.03.06 at 12h 43m 11s.xml">
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 19h 01m 23s.xml">
       <configuration name="UnitTest.testWord" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTest_testWord - 2017.03.06 at 13h 01m 41s.xml">
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 19h 01m 30s.xml">
+      <configuration name="UnitTest.testWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 19h 01m 54s.xml">
+      <configuration name="UnitTest.testWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 19h 02m 14s.xml">
+      <configuration name="UnitTest.testWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 19h 04m 36s.xml">
+      <configuration name="UnitTest.testWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 19h 05m 07s.xml">
+      <configuration name="UnitTest.testWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 19h 05m 43s.xml">
+      <configuration name="UnitTest.testWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitTest_testWord - 2017.03.06 at 19h 07m 10s.xml">
       <configuration name="UnitTest.testWord" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UnitTest_testWord - 2017.03.06 at 14h 41m 02s.xml">
@@ -412,41 +465,59 @@
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39895013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="c.equals(&quot;s&quot;) &amp;&amp; d.equals(&quot;chiavo&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java</url>
+          <line>211</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="c.equals(&quot;s&quot;) &amp;&amp; d.equals(&quot;chiavo&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -455,6 +526,22 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/Speller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/test/UnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="72" column="95" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="72" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/owpla/speller/ItalianRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
