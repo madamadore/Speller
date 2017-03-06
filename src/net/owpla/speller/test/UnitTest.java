@@ -3,7 +3,7 @@ package net.owpla.speller.test;
 import net.owpla.speller.ItalianSpeller;
 import org.junit.Test;
 
-import java.util.ArrayList;
+import java.util.*;
 
 import static junit.framework.TestCase.assertEquals;
 
@@ -14,6 +14,7 @@ public class UnitTest {
 
     @Test
     public void testWord() {
+
         ArrayList<String> syllables = null;
         ItalianSpeller is = new ItalianSpeller();
         syllables = (ArrayList<String>) is.apply("amido");
@@ -30,7 +31,7 @@ public class UnitTest {
 
         syllables = (ArrayList<String>) is.apply("acqua");
         assertEquals("acqua", 2, syllables.size());
-        assertEquals(syllables, new ArrayList<String>(){{ this.add("acq"); this.add("ua"); }});
+        assertEquals(syllables, new ArrayList<String>(){{ this.add("ac"); this.add("qua"); }});
 
         syllables = (ArrayList<String>) is.apply("qua");
         assertEquals("qua", 1, syllables.size());

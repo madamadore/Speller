@@ -82,10 +82,15 @@ class ItalianRule {
             char endOfC = c.charAt(c.length() - 1);
             char startOfD = d.charAt(0);
             String triphthong = Character.toString(endOfC);
-            if (d.length()>2) {
+            if (d.length() > 3) {
+                triphthong += d.substring(0, 3);
+            }
+            if (isTriphthong().test(triphthong)) {
+                return true;
+            }
+            if (d.length() > 2) {
                 triphthong += d.substring(0, 2);
             }
-
             if (d.length() > 1  && isVowel().test(endOfC) && isConsonant().test(startOfD)
                     && isComplexConsonant().negate().test(startOfD, d.charAt(1))) {
                 return true;
