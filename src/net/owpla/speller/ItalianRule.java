@@ -9,7 +9,7 @@ class ItalianRule {
 
     public boolean isSeparate(String a, String b) {
         BiPredicate<String, String> biPredicate = vowelRule()
-                .or(cqRule())
+                /*.or(cqRule())*/
                 .or(isGeminateRule())
                 .or(consonantRule());
         return biPredicate.test(a, b);
@@ -81,6 +81,14 @@ class ItalianRule {
         BiPredicate<String, String> predicate = (c, d)-> {
             char endOfC = c.charAt(c.length() - 1);
             char startOfD = d.charAt(0);
+
+            if (d.length()>3) {
+                String triphthong = d.substring(0, 3);
+                if (isTriphthong().test(triphthong)) {
+                    return true;
+                }
+            }
+
             String triphthong = Character.toString(endOfC);
             if (d.length()>2) {
                 triphthong += d.substring(0, 2);
@@ -91,6 +99,10 @@ class ItalianRule {
                 return true;
             } else if(isTriphthong().test(triphthong) || isDiphthong().test(endOfC, startOfD)) {
                 return false;
+            } else if (apostropheRule().test(endOfC, startOfD)) {
+                return false;
+            } else if (isVowel().test(endOfC) && isVowel().test(startOfD)){
+                return true;
             }
             return false;
         };
@@ -98,7 +110,8 @@ class ItalianRule {
     }
 
     private Predicate<Character> isConsonant() {
-        return isVowel().negate();
+        Predicate<Character> notAnApostrophe = c->{ return c != '\'' ? true : false; };
+        return isVowel().negate().and( notAnApostrophe );
     }
 
     private BiPredicate<Character, Character> isConsonantGroup() {
@@ -119,27 +132,21 @@ class ItalianRule {
             char startOfD = d.charAt(0);
 
             boolean retVal = false;
-            if ((endOfC == 'l' || endOfC == 'm' || endOfC == 'n'  || endOfC == 'r') && isConsonant().test(startOfD)) {
-                retVal = true;
-            }
-            if (isConsonantGroup().test(endOfC, startOfD)) {
-                retVal = false;
-            } else if (endOfC == 's' && isConsonant().test(startOfD)) {
-                retVal = false;
-            }
-            return retVal;
-        };
-        return predicate;
-    }
-
-    private BiPredicate<String, String> cqRule() {
-        BiPredicate<String, String> predicate = (c, d)-> {
-            char endOfC = c.charAt(c.length() - 1);
-            char startOfD = d.charAt(0);
             if (endOfC == 'c' && startOfD == 'q') {
                 return true;
+            }else {
+                if ((endOfC == 'l' || endOfC == 'm' || endOfC == 'n' || endOfC == 'r') && isConsonant().test(startOfD)) {
+                    retVal = true;
+                }
+                if (isConsonantGroup().test(endOfC, startOfD)) {
+                    retVal = false;
+                } else if (endOfC == 's' && isConsonant().test(startOfD)) {
+                    retVal = false;
+                } else if (apostropheRule().test(endOfC, startOfD)) {
+                    retVal = false;
+                }
             }
-            return false;
+            return retVal;
         };
         return predicate;
     }
@@ -148,7 +155,7 @@ class ItalianRule {
         BiPredicate<String, String> predicate = (c, d)-> {
             char endOfC = c.charAt(c.length() - 1);
             char startOfD = d.charAt(0);
-            if (isVowel().negate().test(endOfC) && endOfC == startOfD) {
+            if (isConsonant().test(endOfC) && endOfC == startOfD) {
                 return true;
             }
             return false;
@@ -156,4 +163,29 @@ class ItalianRule {
         return predicate;
     }
 
+    private BiPredicate<Character, Character> apostropheRule(){
+        BiPredicate<Character, Character> predicate = (c, d)->{
+            if(c =='\'' || d  =='\'' ){
+                return false;
+            }
+            return false;
+        };
+        return predicate;
+    }
+
+    private Predicate<String> isDiacritic(){
+
+    }
+
+    private BiPredicate<String, String> diacriticsRule(){
+        BiPredicate<String , String> predicate = (c, d)->{
+            char endOfC = c.charAt(c.length() - 1);
+            char startOfD = d.charAt(0);
+            if(){
+                return true;
+            }
+            return false;
+        };
+        return predicate;
+    }
 }
