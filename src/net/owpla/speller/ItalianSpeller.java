@@ -1,27 +1,40 @@
 package net.owpla.speller;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 public class ItalianSpeller implements Speller {
 
     private char[] wordCharArray;
-    private List<String> spell;
 
     @Override
     public List<String> apply(String word) {
         wordCharArray = word.toCharArray();
-        spell = new ArrayList<>();
 
+        List<String> syllabes = null;
         if (wordCharArray.length > 0) {
-            spell();
+            syllabes = spell();
+            String sillabaLunga = syllabes.stream().max(Comparator.comparing(String::length)).get();
+            int indexOfSillabaLunga = syllabes.indexOf(sillabaLunga);
+            System.out.println(syllabes + " (" + sillabaLunga + ") " + indexOfSillabaLunga);
         }
 
-        return spell;
+        return syllabes;
     }
 
-    private void spell() {
-        spell.clear();
+    private double versoInNumero(String verso) {
+        String str = verso.toUpperCase();
+        double ris = 0;
+        for ( int i = 0; i < str.length(); i++ ) {
+            ris += ( (str.charAt(i) / 100.0) * Math.pow(str.length(),(i * -1) ) );
+        }
+        return ris;
+    }
+
+    private List<String> spell() {
+        List<String> spell = new ArrayList<>();
         StringBuffer syllabe = new StringBuffer(wordCharArray.length);
         syllabe.append(wordCharArray[0]);
 
@@ -39,6 +52,7 @@ public class ItalianSpeller implements Speller {
 
         String slb = syllabe.toString();
         spell.add(slb);
+        return spell;
     }
 
 }

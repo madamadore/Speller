@@ -16,7 +16,7 @@ class ItalianRule {
         return biPredicate.test(a, b);
     }
 
-    private Predicate<Character> isVowel() {
+    public Predicate<Character> isVowel() {
         Predicate<Character> predicate = c-> {
             List<Character> list = new ArrayList<Character>() {{
                 this.add('a');
@@ -30,7 +30,7 @@ class ItalianRule {
         return predicate;
     }
 
-    private Predicate<String> isTriphthong() {
+    public Predicate<String> isTriphthong() {
         Predicate<String> predicate = (s) -> {
             List<String> list = new ArrayList<String>() {{
                 this.add("iai");
@@ -44,8 +44,8 @@ class ItalianRule {
         return predicate;
     }
 
-    private BiPredicate<Character, Character> isDiphthong() {
-        BiPredicate<Character, Character> predicate = (c, d) -> {
+    public Predicate<String> isDiphthong() {
+        Predicate<String> predicate = s -> {
             List<String> list = new ArrayList<String>() {{
                 this.add("ia");
                 this.add("ie");
@@ -62,8 +62,55 @@ class ItalianRule {
                 this.add("au");
                 this.add("eu");
             }};
-            String diphthong = Character.toString(c) + Character.toString(d);
-            return list.contains(diphthong);
+            return list.contains(s);
+        };
+        return predicate;
+    }
+
+    public Predicate<String> hasProparoxytoneSuffix() {
+        Predicate<String> predicate = s -> {
+            List<String> list = new ArrayList<String>() {{
+                this.add("agine");
+                this.add("aggine");
+                this.add("igine");
+                this.add("iggine");
+                this.add("edine");
+                this.add("udine");
+                this.add("abile");
+                this.add("evole");
+                this.add("ibile");
+                this.add("ico");
+                this.add("aceo");
+                this.add("ognolo");
+                this.add("oide");
+                this.add("cefalo");
+                this.add("crate");
+                this.add("dromo");
+                this.add("fago");
+                this.add("filo");
+                this.add("fobo");
+                this.add("fono");
+                this.add("gamo");
+                this.add("geno");
+                this.add("gono");
+                this.add("grafo");
+                this.add("logo");
+                this.add("mane");
+                this.add("metro");
+                this.add("nomo");
+                this.add("stato");
+                this.add("tesi");
+                this.add("ttero");
+                this.add("fero");
+                this.add("fugo");
+                this.add("voro");
+            }};
+            for (String suffix : list) {
+                if (s.endsWith(suffix)) {
+                    return true;
+                }
+            }
+            return false;
         };
         return predicate;
     }
@@ -103,6 +150,7 @@ class ItalianRule {
 
             String D = d.length() > 1 ? d.substring(0, 2) : "";
             String E = d.length() > 2 ? d.substring(0, 3) : "";
+            String diphthong = Character.toString(endOfC) + Character.toString(startOfD);
 
             if (isVowel().test(endOfC) && (isDiacritic().test(D) || isDiacritic().test(E))) {
                 return true;
@@ -111,7 +159,7 @@ class ItalianRule {
                 return true;
             } else if (isVowel().test(endOfC) && startOfD == 's' && d.length() > 1 && d.charAt(1) != 's') {
                 return true;
-            } else if(isTriphthong().test(triphthong) || isDiphthong().test(endOfC, startOfD)) {
+            } else if(isTriphthong().test(triphthong) || isDiphthong().test(diphthong)) {
                 return false;
             } else if (apostropheRule().test(endOfC, startOfD)) {
                 return false;

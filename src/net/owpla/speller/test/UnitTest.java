@@ -17,6 +17,15 @@ public class UnitTest {
 
         ArrayList<String> syllables = null;
         ItalianSpeller is = new ItalianSpeller();
+
+        syllables = (ArrayList<String>) is.apply("duomo");
+        assertEquals(new ArrayList<String>(){{ this.add("duo"); this.add("mo"); }}, syllables);
+        assertEquals("duomo", 2, syllables.size());
+
+        syllables = (ArrayList<String>) is.apply("boa");
+        assertEquals(new ArrayList<String>(){{ this.add("bo"); this.add("a"); }}, syllables);
+        assertEquals("boa", 2, syllables.size());
+
         syllables = (ArrayList<String>) is.apply("amido");
         assertEquals("amido", 3, syllables.size());
         assertEquals(syllables, new ArrayList<String>(){{ this.add("a"); this.add("mi"); this.add("do"); }});
@@ -166,8 +175,12 @@ public class UnitTest {
         assertEquals(new ArrayList<String>(){{ this.add("a"); this.add("stio"); }}, syllables);
 
         syllables = (ArrayList<String>) is.apply("mia");
-        assertEquals("mia", 2, syllables.size());
         assertEquals(new ArrayList<String>(){{ this.add("mi"); this.add("a"); }}, syllables);
+        assertEquals("mia", 2, syllables.size());
+
+        syllables = (ArrayList<String>) is.apply("bugia");
+        assertEquals("bugia", 3, syllables.size());
+        assertEquals(syllables, new ArrayList<String>(){{ this.add("bu"); this.add("gi"); this.add("a"); }});
 
     }
 }
